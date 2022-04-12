@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HD Wallpaper</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--side navigation item-->
+    <string name="menu_home">Home</string>
+    <string name="menu_category">Category</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="more_nfo">More Info</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_policy">Privacy Policy</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_rate">Give Star</string>
+    <string name="our_social">Our Social</string>
+    <string name="menu_twitter">Twitter</string>
+    <string name="menu_facebook">Facebook</string>
+    <string name="menu_instagram">Instagram</string>
+    <string name="app_settings">App Settings</string>
+    <string name="app_description_short">Unlimited HD Wallpaper App</string>
+    <string name="whoops">Whoops</string>
+    <string name="no_wallpaper_found">No Wallpaper Found</string>
+    <string name="add_fav">Added to Favorite</string>
+    <string name="remove_fav">Remove from Favorite</string>
+    <string name="display_wallpaper">Wallpaper Columns</string>
+    <string name="wallpaper_columes">3 Columns</string>
+    <string name="title_notification">Notifications</string>
+    <string name="label_notification">You want Latest Wallpaer Notifications?</string>
+    <string name="policy_privacy">Privacy Policy</string>
+    <string name="version_label">Version</string>
+    <string name="title_mode">If you want to Dark Mode , just turn </string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="theme_color">App Theme Color</string>
+    <string name="dev_name">G-Devs</string>
+    <string name="app_copyright">App Created By G-Developers</string>
+    <string name="msg_about_version">Version</string>
+    <string name="dialog_option_ok">Okay</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:title="General">
+        <menu>
+            <item
+                android:icon="@drawable/ic_nav_favorite"
+                android:id="@+id/nav_category"
+                android:orderInCategory="100"
+                android:visible="false"
+                android:title="@string/menu_category" />
+            <item
+                android:icon="@drawable/ic_nav_favorite"
+                android:id="@+id/nav_favorite"
+                android:orderInCategory="101"
+                android:title="@string/menu_favorite" />
+        </menu>
+    </item>
+    <item android:title="Find Us">
+        <menu>
+            <item
+                android:icon="@drawable/ic_nav_instagram"
+                android:id="@+id/nav_instagram"
+                android:orderInCategory="102"
+                android:title="@string/menu_instagram" />
+            <item
+                android:icon="@drawable/ic_nav_twitter"
+                android:id="@+id/nav_twitter"
+                android:orderInCategory="104"
+                android:title="@string/menu_twitter" />
+            <item
+                android:icon="@drawable/ic_nav_facebook"
+                android:id="@+id/nav_facebook"
+                android:orderInCategory="103"
+                android:title="@string/menu_facebook" />
+        </menu>
+    </item>
+    <item android:title="More Info">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:orderInCategory="106"
+                android:title="@string/app_settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:orderInCategory="107"
+                android:title="@string/menu_about" />
+            <item
+                android:id="@+id/nav_rate"
+                android:orderInCategory="108"
+                android:title="@string/menu_rate" />
+            <item
+                android:id="@+id/nav_share"
+                android:orderInCategory="108"
+                android:title="@string/menu_share" />
+        </menu>
+    </item>
+</menu>

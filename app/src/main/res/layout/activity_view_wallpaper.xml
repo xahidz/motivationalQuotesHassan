@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:id="@+id/root_layout"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+        <com.gdevs.wallpaperapp.Utils.StatusBarView
+            android:id="@+id/statusBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            android:alpha="0.8"
+            android:background="@color/colorPrimaryDark"/>
+
+    </RelativeLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_above="@id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/side_nav_bar">
+
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:id="@+id/btnInfo">
+
+            <ImageView
+                android:layout_height="24dp"
+                android:layout_width="24dp"
+                android:src="@drawable/ic_baseline_share" />
+
+            <TextView
+                android:id="@+id/tvHD"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Share" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:id="@+id/btnDownload">
+
+            <ImageView
+                android:layout_height="24dp"
+                android:layout_width="24dp"
+                android:src="@drawable/ic_baseline_download" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Save" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:id="@+id/btnSetWallpaper">
+
+            <ImageView
+                android:layout_height="24dp"
+                android:layout_width="24dp"
+                android:src="@drawable/ic_baseline_category" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Apply" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:id="@+id/btnFavorite">
+
+            <ImageView
+                android:layout_height="24dp"
+                android:layout_width="24dp"
+                android:id="@+id/img_favorite"
+                android:src="@drawable/ic_baseline_favorite_border" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Favorite" />
+
+        </LinearLayout>
+
+
+  </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"/>
+
+</RelativeLayout>

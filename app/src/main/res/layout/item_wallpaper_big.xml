@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="6dp"
+    android:paddingTop="6dp"
+    android:paddingRight="6dp"
+    android:paddingBottom="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivWallpaper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/placeholder"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutColor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/side_nav_bar"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/tvWallpaper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="5dp" />
+
+            <ImageView
+                android:id="@+id/ivGifWallpaper"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                app:tint="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                />
+
+        </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

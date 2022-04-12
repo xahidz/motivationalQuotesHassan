@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "884660063398",
+    "firebase_url": "https://motivational-quotes2-default-rtdb.firebaseio.com",
+    "project_id": "motivational-quotes2",
+    "storage_bucket": "motivational-quotes2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884660063398:android:0519f34a23c494d7b6b867",
+        "android_client_info": {
+          "package_name": "com.urduarmy.motivational_quotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884660063398-fso5v0qvbs35guvrc74pvgorfk27v7vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJPtCf1wjPIGO_0Pu50A073NVn4ghQlSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884660063398-fso5v0qvbs35guvrc74pvgorfk27v7vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
